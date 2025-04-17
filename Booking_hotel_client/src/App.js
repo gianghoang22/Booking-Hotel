@@ -6,6 +6,7 @@ import Hotels from './pages/Hotels';
 import Rooms from './pages/Rooms';
 import Bookings from './pages/Bookings';
 import Login from './pages/Login';
+import UserProfile from './components/UserProfile';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
           <Route path="/rooms" element={<Rooms />} />
           <Route path="/bookings" element={<Bookings />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/user-profile" element={<UserProfile />} />
+          
         </Routes>
       </div>
     </Router>
